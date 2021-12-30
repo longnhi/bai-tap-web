@@ -25,7 +25,7 @@
                         class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#index.php?controller=club&action=index">Club Manager<span
+                <a class="nav-link" href="index.php?controller=club&action=index">Club Manager<span
                         class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">

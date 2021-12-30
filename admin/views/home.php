@@ -26,7 +26,7 @@
                         <p>Có <?php echo count($club->all()); ?> câu lạc bộ</p>
                     </div>
                     <div class="card-body d-flex align-items-center justify-content-center">
-                        <a class="page-link" href="#">Quản lý câu lạc bộ</a>
+                        <a class="page-link" href="index.php?controller=club&action=index">Quản lý câu lạc bộ</a>
                     </div>
                 </div>
             </div>
