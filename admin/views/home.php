@@ -6,7 +6,7 @@
                         <p>Có <?php echo count($jersey->all()); ?> áo đấu</p>
                     </div>
                     <div class="card-body d-flex align-items-center justify-content-center">
-                        <a class="page-link" href="#">Quản lý áo đấu</a>
+                        <a class="page-link" href="index.php?controller=jersey&action=index">Quản lý áo đấu</a>
                     </div>
                 </div>
             </div>
