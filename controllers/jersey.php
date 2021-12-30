@@ -22,7 +22,12 @@ if ($action == 'tatca') {
 }
 
 if ($action == 'search') {
-    
+    $kw = Utilities::get('kw');
+    $data = $jersey->Search($kw);
+    echo '<script>
+        document.getElementById("tilte").innerHTML = "Tìm kiếm sản phẩm";
+    </script>';
+    include './views/jersey/index.php';
 }
 
 if ($action == 'jerseytype') {
