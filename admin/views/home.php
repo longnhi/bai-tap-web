@@ -36,7 +36,7 @@
                         <p>Có <?php echo count($kh->all()); ?> tài khoản khách hàng</p>
                     </div>
                     <div class="card-body d-flex align-items-center justify-content-center">
-                        <a class="page-link" href="#">Quản lý tài khoản</a>
+                        <a class="page-link" href="index.php?controller=khachhang&action=index">Quản lý tài khoản</a>
                     </div>
                 </div>
             </div>
