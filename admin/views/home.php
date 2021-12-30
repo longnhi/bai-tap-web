@@ -16,7 +16,7 @@
                         <p>Có <?php echo count($type->all()); ?> loại áo đấu</p>
                     </div>
                     <div class="card-body d-flex align-items-center justify-content-center">
-                        <a class="page-link" href="#">Quản lý loại áo đấu</a>
+                        <a class="page-link" href="index.php?controller=jerseytype&action=index">Quản lý loại áo đấu</a>
                     </div>
                 </div>
             </div>

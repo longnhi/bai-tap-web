@@ -21,7 +21,7 @@
                         class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#index.php?controller=jerseytype&action=index">Kits Manager<span
+                <a class="nav-link" href="index.php?controller=jerseytype&action=index">Kits Manager<span
                         class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
