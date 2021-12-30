@@ -29,7 +29,7 @@
                         class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#index.php?controller=khachhang&action=index">Customer Manager<span
+                <a class="nav-link" href="index.php?controller=khachhang&action=index">Customer Manager<span
                         class="sr-only">(current)</span></a>
             </li>
         </ul>
