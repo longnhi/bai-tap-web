@@ -36,7 +36,7 @@
         if(!isset($_SESSION['email'])){?>
             <ul class="navbar-nav navbar-right mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Sign In<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.php?controller=khachhang&action=dangnhap">Sign In<span class="sr-only">(current)</span></a>
             </li>
         </ul>
         <?php
@@ -46,7 +46,7 @@
                 <a class="nav-link" href="#"><?php echo ($_SESSION['email']);?><span class="sr-only">(current)</span></a>
             </li>
             <li>
-            <a class="nav-link text-light" href="#">Log out<span class="sr-only">(current)</span></a>
+            <a class="nav-link text-light" href="index.php?controller=khachhang&action=dangxuat">Log out<span class="sr-only">(current)</span></a>
             </li>
         </ul>
         <?php
