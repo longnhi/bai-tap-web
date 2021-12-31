@@ -56,7 +56,7 @@ if($action == 'xulysua')
     {
         $hinhfile = $hinh;
     }else{
-        $hinhfile = basename($_FILES['hinhanh']['name']);
+        $hinhfile = rand(0, 999).'_'.basename($_FILES['hinhanh']['name']);
         $link_img = "../assets/img/jersey/";
         $link_file = $link_img . $hinhfile;
         move_uploaded_file($_FILES['hinhanh']['tmp_name'], $link_file);
@@ -82,7 +82,7 @@ if($action == 'xulythem')
     $maclub = Utilities::post('maclub');
     $maloai = Utilities::post('maloai');
 
-    $hinhfile = basename($_FILES['hinhanh']['name']);
+    $hinhfile = rand(0, 999).'_'.basename($_FILES['hinhanh']['name']);
     $link_img = "../assets/img/jersey/";
     $link_file = $link_img . $hinhfile;
     move_uploaded_file($_FILES['hinhanh']['tmp_name'], $link_file);
